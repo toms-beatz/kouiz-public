@@ -97,7 +97,7 @@ const Step1 = ({ formData, updateFormData, nextStep }) => {
                                     <Picker locale="fr" data={data} onEmojiSelect={setEmoji} className="ml-24" />
                                 </PopoverContent>
                             </Popover>
-                            <div className="lg:hidden block mt-8">Cliquez pour changer l'emoji</div>
+                            <div className="lg:hidden block mt-8">Cliquez pour changer l&apos;emoji</div>
                             {emojiError && <p className="text-[#D22B2B] font-body font-black text-sm pt-2">⚠️ {emojiError} ⚠️</p>}
                         </div>
 

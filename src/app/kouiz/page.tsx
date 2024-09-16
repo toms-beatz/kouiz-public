@@ -157,7 +157,7 @@ const Kouiz = () => {
                         <div className="bg-pWhite dark:bg-pBlue border dark:border-0 rounded-xl space-y-2 flex flex-col w-full p-12">
                             <div className="flex flex-col justify-center items-center w-full gap-8">
                                 <p className="text-center text-gray-500 dark:text-gray-300">
-                                    Vous n'avez pas encore créé de Kouiz. Cliquez sur le bouton ci-dessus pour en créer un.
+                                    Vous n&apos;avez pas encore créé de Kouiz. Cliquez sur le bouton ci-dessus pour en créer un.
                                 </p>
                             </div>
                         </div>

@@ -21,14 +21,14 @@ export default function NotFound() {
     <>
       <MaxWidthWrapper className="flex flex-col items-center justify-center h-screen w-screen">
         <h1 className='text-9xl font-title font-bold text-pBrown'>404</h1>
-        <div className='text-xl mt-4 mb-8'>Cette page n'existe pas</div>
+        <div className='text-xl mt-4 mb-8'>Cette page n&apos;existe pas</div>
         <div>
           {!isAuthenticated ?
             (
               <Link className={buttonVariants({
                 className: 'font-title !bg-pBrown !text-pWhite dark:bg-pBrown dark:text-pWhite'
               })} href='/'>
-                <Home className='w-5 h-5 lg:mr-2' /> Aller sur la page d'accueil
+                <Home className='w-5 h-5 lg:mr-2' /> Aller sur la page d&apos;accueil
               </Link>
             ) :
             (

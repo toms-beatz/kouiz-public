@@ -169,7 +169,7 @@ const Register = () => {
                                         <Link href="" className={buttonVariants({
                                             size: "lg",
                                             className: '!bg-pBrown font-title dark:text-pWhite'
-                                        })} onClick={handleSubmit}>S'inscrire</Link>
+                                        })} onClick={handleSubmit}>S&apos;inscrire</Link>
                                         <p className="text-sm font-medium font-body text-pBlue dark:text-pWhite mt-6">
                                             Déjà un compte ? <Link href="/login" className="font-black hover:underline text-pBrown">Connectez-vous.</Link>
                                         </p>

@@ -140,7 +140,7 @@ const Answers = () => {
                         <div className="bg-pWhite dark:bg-pBlue border dark:border-0 rounded-xl space-y-2 flex flex-col w-full p-12">
                             <div className="flex flex-col justify-center items-center w-full gap-8">
                                 <p className="text-center text-gray-500 dark:text-gray-300">
-                                    Vous n'avez pas encore de réponses à vos Kouiz.
+                                    Vous n&apos;avez pas encore de réponses à vos Kouiz.
                                 </p>
                             </div>
                         </div>
