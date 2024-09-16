@@ -126,7 +126,7 @@ export default function Home() {
               <span className='text-sm font-black text-blue-600 font-body text-pBlue dark:text-pWhite'>Étape 1</span>
               <span className='text-xl font-semibold font-title text-pBrown'>Créez un compte</span>
               <span className='mt-2 text-zinc-700 font-body'>
-                <Link href='/register' className='text-blue-700 underline underline-offset-2'>Créez un compte</Link> pour démarrer l'aventure !
+                <Link href='/register' className='text-blue-700 underline underline-offset-2'>Créez un compte</Link> pour démarrer l&apos;aventure !
               </span>
             </div>
           </li>
@@ -144,7 +144,7 @@ export default function Home() {
               <span className='text-sm font-black text-blue-600 font-body text-pBlue dark:text-pWhite'>Étape 3</span>
               <span className='text-xl font-semibold font-title text-pBrown'>Répondez à des Kouiz</span>
               <span className='mt-2 text-zinc-700 font-body'>
-                Répondez à des kouiz proposés par d'autres utilisateurs.
+                Répondez à des kouiz proposés par d&apos;autres utilisateurs.
               </span>
             </div>
           </li>
@@ -175,10 +175,10 @@ export default function Home() {
           size: 'lg',
           className: 'font-title mt-12 !bg-pBrown !text-pWhite dark:bg-pBrown dark:text-pWhite w-64 rocket-label overflow-hidden'
         })} href='/register'>
-          Je m'inscris <Rocket className='w-5 h-5 ml-2 rocket' />
+          Je m&apos;inscris <Rocket className='w-5 h-5 ml-2 rocket' />
         </Link>
         <Link className="underline underline-offset-2 text-sm mt-4 font-medium" href='/login'>
-          J'ai déjà un compte
+          J&apos;ai déjà un compte
         </Link>
       </div>
     </>
